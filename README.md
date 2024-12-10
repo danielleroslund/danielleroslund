@@ -1,4 +1,4 @@
-## Hi, I'm Danielle Roslund
+## Hi, I'm Danielle
 
 <!--
 **danielleroslund/danielleroslund** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. -->
