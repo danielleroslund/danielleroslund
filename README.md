@@ -8,4 +8,8 @@ For the past two years, I've focused on **Java** and recently expanded into **Py
 
 If you’re hiring, let’s chat! 🚀
 
+<p align="right">
+  <img src="https://api.boot.dev/v1/users/public/5f7f0ecc-4b0e-4c8c-922f-60ce049d616a/thumbnail" >
+</p>
+
 ---
