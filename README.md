@@ -8,4 +8,5 @@ For the past two years, I've focused on **Java** and recently expanded into **Py
 
 If you’re hiring, let’s chat! 🚀
 
+- [LinkedIn](www.linkedin.com/in/danielle-roslund)
 ---
