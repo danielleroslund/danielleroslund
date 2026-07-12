@@ -2,56 +2,64 @@
 
 <p align="center">
 Software Developer from Sweden 🇸🇪
-<br>
+</p>
+
+<p align="center">
 Java • Spring Boot • React • Python
 </p>
 
 <p align="center">
-I enjoy building backend systems, full-stack applications and developer tools while continuously learning how software works under the hood.
+Building software from first principles.
 </p>
 
 <p align="center">
-<a href="https://linkedin.com/in/danielle-roslund">LinkedIn</a> •
+<a href="https://www.linkedin.com/in/danielle-roslund/">LinkedIn</a> •
 <a href="mailto:roslunddanielle@gmail.com">Email</a>
 </p>
 
 ---
 
+## 👩‍💻 About Me
+
+I'm a software developer with a passion for backend development and building software that solves real problems.
+
+Recently, I built a Python AI agent to automate parts of a large-scale AngularJS-to-React migration. I'm now expanding my backend knowledge by building core software systems from scratch to better understand how they work under the hood.
+
+I'm currently looking for opportunities in backend or full-stack development where I can continue learning, collaborating, and building meaningful software.
+
+---
+
 ## 🚀 Currently Building
 
-* 🌐 HTTP Server
-* ⚡ Redis Clone
-* 🌳 Git Clone
-* 🔍 Search Engine
+I'm currently building a backend-focused portfolio by creating software from first principles.
+
+* 🌐 **HTTP Server** — Networking & HTTP
+* ⚡ **Redis Clone** — Caching & Data Structures
+* 🌳 **Git Clone** — Version Control & File Systems
+* 🔍 **Search Engine** — Indexing & Algorithms
 
 ---
 
 ## 🛠 Technologies
 
-**Languages**
-
-Java • JavaScript • Python • SQL
-
-**Backend**
-
-Spring Boot • REST APIs
-
-**Frontend**
-
-React • HTML • CSS
-
-**Tools**
-
-Git • Docker • Maven • Linux • IntelliJ IDEA • VS Code
+| Backend     | Frontend   | Tools         |
+| ----------- | ---------- | ------------- |
+| Java        | React      | Git           |
+| Spring Boot | JavaScript | Docker        |
+| REST APIs   | HTML/CSS   | Maven         |
+| MySQL       |            | Linux         |
+| Python      |            | IntelliJ IDEA |
+|             |            | VS Code       |
 
 ---
 
-## 📌 Featured Projects
+## 📊 GitHub Stats
 
-Coming soon...
-
-I'm currently rebuilding my portfolio with larger software engineering projects focused on backend development, networking and system design.
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=danielleroslund&show_icons=true&theme=transparent" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=danielleroslund&layout=compact&theme=transparent" />
+</p>
 
 ---
 
-⭐ Thanks for stopping by!
+⭐ Thanks for visiting my profile!
