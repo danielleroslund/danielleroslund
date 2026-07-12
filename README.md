@@ -11,7 +11,7 @@ I enjoy building backend systems, full-stack applications and developer tools wh
 </p>
 
 <p align="center">
-<a href="www.linkedin.com/in/danielle-roslund">LinkedIn</a> •
+<a href="https://linkedin.com/in/danielle-roslund">LinkedIn</a> •
 <a href="mailto:roslunddanielle@gmail.com">Email</a>
 </p>
 
