@@ -54,12 +54,4 @@ I'm currently rebuilding my portfolio with larger software engineering projects 
 
 ---
 
-## 📈 GitHub Stats
-
-<!-- GitHub Stats -->
-
-<!-- Top Languages -->
-
----
-
 ⭐ Thanks for stopping by!
