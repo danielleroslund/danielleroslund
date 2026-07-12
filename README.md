@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Danielle👋</h1>
+<h1 align="center">Hi, I'm Danielle 👋</h1>
 
 <p align="center">
 Software Developer from Sweden 🇸🇪
@@ -9,8 +9,8 @@ Java • Spring Boot • React • Python
 </p>
 
 <p align="center">
-<a href="https://www.linkedin.com/in/danielle-roslund/">LinkedIn</a> •
-<a href="mailto:roslunddanielle@gmail.com">Email</a>
+<a href="...">LinkedIn</a> •
+<a href="...">Email</a>
 </p>
 
 ---
