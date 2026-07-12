@@ -26,7 +26,7 @@ I'm a software developer with experience across both frontend and backend, curre
 
 During my latest internship, I worked hands-on with **React**, migrating a large-scale web application from AngularJS to React. I also built a **Python AI agent** to automate parts of the migration process, which sparked my interest in combining software engineering with practical AI tooling.
 
-Alongside that, I'm building systems from scratch (HTTP server, cache, version control) to strengthen my understanding of how things work under the hood, knowledge that benefits both frontend and backend development.
+Alongside that, I'm building systems from scratch (HTTP server, cache, version control) to strengthen my understanding of how things work under the hood.
 
 ---
 
