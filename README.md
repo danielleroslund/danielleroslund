@@ -17,7 +17,7 @@ Java • Spring Boot • React • Python
 
 ## 👩‍💻 About Me
 
-I'm a software developer with a passion for backend development and building software that solves real-world problems.
+I'm a software developer who's passionate about building software and always excited to learn something new.
 
 My primary focus is **Java**, **Spring Boot**, and **React**. Recently, I built a Python AI agent to automate parts of a large-scale AngularJS-to-React migration, which sparked my interest in combining software engineering with AI tooling.
 
