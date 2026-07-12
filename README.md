@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Danielle 👋</h1>
+<h1 align="center">Hi, I'm Danielle👋</h1>
 
 <p align="center">
 Software Developer from Sweden 🇸🇪
