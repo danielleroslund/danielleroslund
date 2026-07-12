@@ -9,10 +9,6 @@ Java • Spring Boot • React • Python
 </p>
 
 <p align="center">
-Building software from first principles.
-</p>
-
-<p align="center">
 <a href="https://www.linkedin.com/in/danielle-roslund/">LinkedIn</a> •
 <a href="mailto:roslunddanielle@gmail.com">Email</a>
 </p>
@@ -21,35 +17,42 @@ Building software from first principles.
 
 ## 👩‍💻 About Me
 
-I'm a software developer with a passion for backend development and building software that solves real problems.
+I'm a software developer with a passion for backend development and building software that solves real-world problems.
 
-Recently, I built a Python AI agent to automate parts of a large-scale AngularJS-to-React migration. I'm now expanding my backend knowledge by building core software systems from scratch to better understand how they work under the hood.
+My primary focus is **Java**, **Spring Boot**, and **React**. Recently, I built a Python AI agent to automate parts of a large-scale AngularJS-to-React migration, which sparked my interest in combining software engineering with AI tooling.
 
-I'm currently looking for opportunities in backend or full-stack development where I can continue learning, collaborating, and building meaningful software.
+I'm currently looking for opportunities in **backend** or **full-stack development**, where I can continue learning, collaborating, and building meaningful software.
 
 ---
 
 ## 🚀 Currently Building
 
-I'm currently building a backend-focused portfolio by creating software from first principles.
+I'm currently strengthening my backend skills by building software from scratch and exploring how systems work under the hood.
 
-* 🌐 **HTTP Server** — Networking & HTTP
-* ⚡ **Redis Clone** — Caching & Data Structures
-* 🌳 **Git Clone** — Version Control & File Systems
-* 🔍 **Search Engine** — Indexing & Algorithms
+* 🌐 HTTP Server
+* ⚡ Redis Clone
+* 🌳 Git Clone
+* 🔍 Search Engine
 
 ---
 
-## 🛠 Technologies
+## 🛠 Tech Stack
 
-| Backend     | Frontend   | Tools         |
-| ----------- | ---------- | ------------- |
-| Java        | React      | Git           |
-| Spring Boot | JavaScript | Docker        |
-| REST APIs   | HTML/CSS   | Maven         |
-| MySQL       |            | Linux         |
-| Python      |            | IntelliJ IDEA |
-|             |            | VS Code       |
+**Languages**
+
+Java • JavaScript • Python • SQL
+
+**Backend**
+
+Spring Boot • REST APIs • MySQL
+
+**Frontend**
+
+React • HTML • CSS
+
+**Tools**
+
+Git • Docker • Maven • Linux • IntelliJ IDEA • VS Code • Postman
 
 ---
 
@@ -62,4 +65,4 @@ I'm currently building a backend-focused portfolio by creating software from fir
 
 ---
 
-⭐ Thanks for visiting my profile!
+⭐ Thanks for stopping by! Feel free to check out my repositories or connect with me on LinkedIn.
