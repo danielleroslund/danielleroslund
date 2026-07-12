@@ -34,10 +34,10 @@ Alongside that, I'm building systems from scratch (HTTP server, cache, version c
 
 Building systems from scratch to understand how they work internally.
 
-- 🟡 **HTTP Server** (link): networking and the HTTP protocol
-- ⬜ **Redis Clone** (link): caching and data structures
-- ⬜ **Git Clone** (link): version control and file systems
-- ⬜ **Search Engine** (link): indexing and search algorithms
+- 🟡 **HTTP Server**: networking and the HTTP protocol
+- ⬜ **Redis Clone**: caching and data structures
+- ⬜ **Git Clone**: version control and file systems
+- ⬜ **Search Engine**: indexing and search algorithms
 
 ---
 
