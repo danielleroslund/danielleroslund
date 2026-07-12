@@ -5,7 +5,11 @@
 </p>
 
 <p align="center">
-  Backend Development • Full-Stack • AI Tooling
+  Backend • Frontend • Full-Stack Development • AI Tooling
+</p>
+
+<p align="center">
+  🔍 Currently looking for: Backend, Frontend, or Full-Stack roles
 </p>
 
 <p align="center">
@@ -16,46 +20,53 @@
 
 ---
 
-## 🌸 About Me
+## 👋 About Me
 
-I love building software, exploring new technologies, and continuously growing as a developer.
+I'm a software developer with experience across both frontend and backend, currently exploring backend systems and networking to deepen my technical foundation.
 
-During my latest internship, I worked on migrating a large-scale web application from **AngularJS to React**. I also built a **Python AI agent** to automate parts of the migration process, which sparked my interest in combining software engineering with AI.
+During my latest internship, I worked hands-on with **React**, migrating a large-scale web application from AngularJS to React. I also built a **Python AI agent** to automate parts of the migration process, which sparked my interest in combining software engineering with practical AI tooling.
 
-I'm currently looking for opportunities in **backend** or **full-stack development** while building projects that deepen my understanding of software engineering.
+Alongside that, I'm building systems from scratch (HTTP server, cache, version control) to strengthen my understanding of how things work under the hood, knowledge that benefits both frontend and backend development.
 
 ---
 
 ## 🌱 Currently Building
 
-I'm building software from scratch to better understand how systems work under the hood.
+Building systems from scratch to understand how they work internally.
 
-🟡 **HTTP Server** - Networking & HTTP
-
-⬜ **Redis Clone** - Caching & Data Structures
-
-⬜ **Git Clone** - Version Control & File Systems
-
-⬜ **Search Engine** - Indexing & Algorithms
+- 🟡 **HTTP Server** (link): networking and the HTTP protocol
+- ⬜ **Redis Clone** (link): caching and data structures
+- ⬜ **Git Clone** (link): version control and file systems
+- ⬜ **Search Engine** (link): indexing and search algorithms
 
 ---
 
-## 💜 Tech Stack
+## 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,react,js,html,css,python,mysql,docker,git,linux,maven,idea,vscode,postman" />
+  <img src="https://skillicons.dev/icons?i=react,js,html,css,java,spring,python,mysql,docker,git,linux,maven,idea,vscode,postman" />
 </p>
 
 ---
 
 ## 📌 Featured Projects
 
-My portfolio is currently under construction as I build larger projects focused on backend engineering, networking, concurrency, and system design.
+### AngularJS → React Migration *(internship experience)*
+Worked on migrating a large-scale web application from AngularJS to React, and built a Python AI agent to automate parts of the migration process.
+*Code not publicly available due to company confidentiality.*
 
-Stay tuned! 🚀
+My personal portfolio is currently under construction, focused on backend engineering, networking, concurrency, and system design. Stay tuned! 🚀
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=danielleroslund&show_icons=true&theme=default" />
+</p>
 
 ---
 
 ## 🤝 Let's Connect
 
-💼 LinkedIn: https://www.linkedin.com/in/danielle-roslund/
+💼 [LinkedIn](https://www.linkedin.com/in/danielle-roslund/) • 📫 [Email](mailto:roslunddanielle@gmail.com)
