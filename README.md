@@ -62,7 +62,7 @@ My personal portfolio is currently under construction, focused on backend engine
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=danielleroslund&show_icons=true&theme=default&cache_seconds=86400" />
+  <img src="https://github-readme-stats-nine-rho.vercel.app/api?username=danielleroslund&show_icons=true&theme=default" />
 </p>
 
 ---
