@@ -1,72 +1,84 @@
 <h1 align="center">Hi, I'm Danielle 👋</h1>
 
 <p align="center">
-  🇸🇪 Sweden • Java • Spring Boot • React • Python
+🇸🇪 Software Developer based in Sweden
 </p>
 
 <p align="center">
-  Backend • Frontend • Full-Stack Development • AI Tooling
+Java • Spring Boot • React • Python
 </p>
 
 <p align="center">
-  🔍 Currently looking for: Backend, Frontend, or Full-Stack roles
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/danielle-roslund/">💼 LinkedIn</a>
-  •
-  <a href="mailto:roslunddanielle@gmail.com">📫 Email</a>
+Building software from full-stack applications to the systems that power them.
 </p>
 
 ---
 
 ## 👋 About Me
 
-I'm a software developer with experience across both frontend and backend, currently exploring backend systems and networking to deepen my technical foundation.
+I'm a software developer who enjoys building things and understanding how they work behind the scenes.
 
-During my latest internship, I worked hands-on with **React**, migrating a large-scale web application from AngularJS to React. I also built a **Python AI agent** to automate parts of the migration process, which sparked my interest in combining software engineering with practical AI tooling.
+During my six-month internship, I worked on migrating a large AngularJS application to React while building a Python AI agent to automate parts of the migration process. That experience sparked my interest in combining software engineering with practical AI tooling.
 
-Alongside that, I'm building systems from scratch (HTTP server, cache, version control) to strengthen my understanding of how things work under the hood.
+Lately I've been spending more time exploring backend development, networking and system design by building software from scratch. I enjoy understanding what's happening beneath the frameworks I use every day.
 
 ---
 
-## 🌱 Currently Building
+## 🚀 Currently Building
 
-Building systems from scratch to understand how they work internally.
+I'm currently working through projects that help me understand how computers and software work under the hood.
 
-- 🟡 **Web Server**: networking and the HTTP protocol
-- ⬜ **Redis Clone**: caching and data structures
-- ⬜ **Git Clone**: version control and file systems
-- ⬜ **Search Engine**: indexing and search algorithms
+| Project | Status |
+|---------|:------:|
+| 🌐 HTTP Server | 🟡 In Progress |
+| ⚡ Redis Clone | ⚪ Planned |
+| 🌳 Git Clone | ⚪ Planned |
+| 🔎 Search Engine | ⚪ Planned |
 
 ---
 
 ## 🛠️ Tech Stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,js,html,css,java,spring,python,mysql,docker,git,linux,maven,idea,vscode,postman" />
-</p>
+### Backend
+
+Java • Spring Boot • Python • MySQL
+
+### Frontend
+
+React • JavaScript • HTML • CSS
+
+### Tools
+
+Git • Docker • Linux • Maven • IntelliJ IDEA • VS Code • Postman
 
 ---
 
-## 📌 Featured Projects
+## 📌 Featured Work
 
-### AngularJS → React Migration *(internship experience)*
-Migrated a large-scale web application from AngularJS to React, and built a Python AI agent to automate parts of the migration process.
-*Code not publicly available due to company confidentiality.*
+### 🤖 AngularJS → React Migration *(Internship)*
 
-My personal portfolio is currently under construction, focused on backend engineering, networking and system design. Stay tuned! 🚀
+Migrated parts of a large-scale AngularJS application to React and built a Python AI agent that automated parts of the migration workflow.
+
+*The source code belongs to the company and isn't publicly available.*
 
 ---
 
-## 📊 GitHub Stats
+## 🌱 Exploring
 
-<p align="center">
-  <img src="https://github-readme-stats-nine-rho.vercel.app/api?username=danielleroslund&show_icons=true&theme=default" />
-</p>
+Currently learning more about:
+
+- Networking
+- HTTP
+- System Design
+- Distributed Systems
+- Operating Systems
 
 ---
 
 ## 🤝 Let's Connect
 
-💼 [LinkedIn](https://www.linkedin.com/in/danielle-roslund/) • 📫 [Email](mailto:roslunddanielle@gmail.com)
+💼 **LinkedIn**  
+https://www.linkedin.com/in/danielle-roslund/
+
+📫 **Email**  
+roslunddanielle@gmail.com
