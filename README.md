@@ -1,68 +1,61 @@
 <h1 align="center">Hi, I'm Danielle 👋</h1>
 
 <p align="center">
-Software Developer from Sweden 🇸🇪
+  🇸🇪 Sweden • Java • Spring Boot • React • Python
 </p>
 
 <p align="center">
-Java • Spring Boot • React • Python
+  Backend Development • Full-Stack • AI Tooling
 </p>
 
 <p align="center">
-<a href="...">LinkedIn</a> •
-<a href="...">Email</a>
+  <a href="https://www.linkedin.com/in/danielle-roslund/">💼 LinkedIn</a>
+  •
+  <a href="mailto:roslunddanielle@gmail.com">📫 Email</a>
 </p>
 
 ---
 
-## 🌱 About Me
+## 🌸 About Me
 
-I'm a software developer who's passionate about building software and always excited to learn something new.
+I love building software, exploring new technologies, and continuously growing as a developer.
 
-My primary focus is **Java**, **Spring Boot**, and **React**. Recently, I built a Python AI agent to automate parts of a large-scale AngularJS-to-React migration, which sparked my interest in combining software engineering with AI tooling.
+During my latest internship, I worked on migrating a large-scale web application from **AngularJS to React**. I also built a **Python AI agent** to automate parts of the migration process, which sparked my interest in combining software engineering with AI.
 
-I'm currently looking for opportunities in **backend** or **full-stack development**, where I can continue learning, collaborating, and building meaningful software.
-
----
-
-## 🚀 What I'm Working On
-
-I'm currently strengthening my backend skills by building software from scratch and exploring how systems work under the hood.
-
-* 🌐 HTTP Server
-* ⚡ Redis Clone
-* 🌳 Git Clone
-* 🔍 Search Engine
+I'm currently looking for opportunities in **backend** or **full-stack development** while building projects that deepen my understanding of software engineering.
 
 ---
 
-## 🛠 Tech Stack
+## 🌱 Currently Building
 
-**Languages**
+I'm building software from scratch to better understand how systems work under the hood.
 
-Java • JavaScript • Python • SQL
+🟡 **HTTP Server** - Networking & HTTP
 
-**Backend**
+⬜ **Redis Clone** - Caching & Data Structures
 
-Spring Boot • REST APIs • MySQL
+⬜ **Git Clone** - Version Control & File Systems
 
-**Frontend**
-
-React • HTML • CSS
-
-**Tools**
-
-Git • Docker • Maven • Linux • IntelliJ IDEA • VS Code • Postman
+⬜ **Search Engine** - Indexing & Algorithms
 
 ---
 
-## 📊 GitHub Stats
+## 💜 Tech Stack
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=danielleroslund&show_icons=true&theme=transparent" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=danielleroslund&layout=compact&theme=transparent" />
+  <img src="https://skillicons.dev/icons?i=java,spring,react,js,html,css,python,mysql,docker,git,linux,maven,idea,vscode,postman" />
 </p>
 
 ---
 
-⭐ Thanks for stopping by! Feel free to check out my repositories or connect with me on LinkedIn.
+## 📌 Featured Projects
+
+My portfolio is currently under construction as I build larger projects focused on backend engineering, networking, concurrency, and system design.
+
+Stay tuned! 🚀
+
+---
+
+## 🤝 Let's Connect
+
+💼 LinkedIn: https://www.linkedin.com/in/danielle-roslund/
