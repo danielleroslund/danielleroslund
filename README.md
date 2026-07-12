@@ -55,7 +55,7 @@ Building systems from scratch to understand how they work internally.
 Migrated a large-scale web application from AngularJS to React, and built a Python AI agent to automate parts of the migration process.
 *Code not publicly available due to company confidentiality.*
 
-My personal portfolio is currently under construction, focused on backend engineering, networking, concurrency, and system design. Stay tuned! 🚀
+My personal portfolio is currently under construction, focused on backend engineering, networking and system design. Stay tuned! 🚀
 
 ---
 
