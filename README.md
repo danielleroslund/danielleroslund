@@ -25,7 +25,7 @@ I'm currently looking for opportunities in **backend** or **full-stack developme
 
 ---
 
-## 🚀 Currently Building
+## 🚀 What I'm Working On
 
 I'm currently strengthening my backend skills by building software from scratch and exploring how systems work under the hood.
 
