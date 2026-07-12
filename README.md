@@ -15,7 +15,7 @@ Java • Spring Boot • React • Python
 
 ---
 
-## 👩‍💻 About Me
+## 🌱 About Me
 
 I'm a software developer who's passionate about building software and always excited to learn something new.
 
