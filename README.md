@@ -1,13 +1,65 @@
-## Hi there! 👋
+<h1 align="center">Hi, I'm Danielle 👋</h1>
 
-<!--
-**danielleroslund/danielleroslund** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. -->
-I'm a junior full-stack developer who enjoys turning ideas into working software. My toolkit centers around Java, Spring Boot, and React, built through hands-on projects like my Full-stack Library Application, which is the project that got me hooked on connecting frontend and backend.
+<p align="center">
+Software Developer from Sweden 🇸🇪
+<br>
+Java • Spring Boot • React • Python
+</p>
 
-More recently, I built an AI-agent in Python to automate parts of a large-scale AngularJS-to-React migration, which sparked my interest in combining traditional development with AI tooling.
+<p align="center">
+I enjoy building backend systems, full-stack applications and developer tools while continuously learning how software works under the hood.
+</p>
 
-I'm currently looking for opportunities in backend or frontend development where I can keep growing and ship real things.
-
-If you're hiring, let's chat! 🚀
+<p align="center">
+<a href="https://linkedin.com/in/YOUR-LINKEDIN">LinkedIn</a> •
+<a href="mailto:YOURMAIL">Email</a>
+</p>
 
 ---
+
+## 🚀 Currently Building
+
+* 🌐 HTTP Server
+* ⚡ Redis Clone
+* 🌳 Git Clone
+* 🔍 Search Engine
+
+---
+
+## 🛠 Technologies
+
+**Languages**
+
+Java • JavaScript • Python • SQL
+
+**Backend**
+
+Spring Boot • REST APIs
+
+**Frontend**
+
+React • HTML • CSS
+
+**Tools**
+
+Git • Docker • Maven • Linux • IntelliJ IDEA • VS Code
+
+---
+
+## 📌 Featured Projects
+
+Coming soon...
+
+I'm currently rebuilding my portfolio with larger software engineering projects focused on backend development, networking and system design.
+
+---
+
+## 📈 GitHub Stats
+
+<!-- GitHub Stats -->
+
+<!-- Top Languages -->
+
+---
+
+⭐ Thanks for stopping by!
