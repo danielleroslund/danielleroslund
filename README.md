@@ -14,7 +14,7 @@ Backend • Frontend • Full-Stack Development • AI Tooling
 
 I'm a software developer with experience across both frontend and backend, currently deepening my understanding of backend systems, networking, and data structures by rebuilding well-known technologies from scratch.
 
-During my latest internship, I worked hands-on with **React**, migrating a large-scale web application from AngularJS to React, and built a **Python AI agent** to automate parts of the migration process — which sparked my interest in combining software engineering with practical AI tooling.
+During my latest internship, I worked hands-on with **React**, migrating a large-scale web application from AngularJS to React, and built a **Python AI agent** to automate parts of the migration process, which sparked my interest in combining software engineering with practical AI tooling.
 
 Right now I'm building a small suite of systems projects (database, cache, web server, React) to strengthen my understanding of how the tools I use every day actually work under the hood.
 
