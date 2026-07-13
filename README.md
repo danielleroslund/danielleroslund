@@ -31,7 +31,7 @@ Recreating core technologies from scratch to understand how they work internally
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech I enjoy working with
 
 ![](https://skillicons.dev/icons?i=react,js,html,css,java,spring,python,mysql,docker,git,linux)
 
