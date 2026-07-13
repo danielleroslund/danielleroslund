@@ -52,7 +52,7 @@ A Python AI agent using the Gemini API to iteratively solve coding tasks via CLI
 
 ## 📊 GitHub Stats
 
-https://github-readme-stats-sigma-six.vercel.app/api?username=danielleroslund&show_icons=true&theme=default
+![](https://github-readme-stats-sigma-six.vercel.app/api?username=danielleroslund&show_icons=true&theme=default)
 
 ---
 
