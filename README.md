@@ -24,10 +24,10 @@ Right now I'm building a small suite of systems projects (database, cache, web s
 
 Recreating core technologies from scratch to understand how they work internally.
 
-- ⬜ **Database** — B+trees, storage engines, and a minimal SQL layer *(Go)*
-- ⬜ **Redis Clone** — caching, data structures, and network protocols *(Go)*
-- ⬜ **HTTP Server** — networking and the HTTP protocol, from raw sockets up *(Node.js)*
-- ⬜ **React from Scratch** — virtual DOM, fiber architecture, and reconciliation *(JavaScript)*
+- ⬜ **Database** - B+trees, storage engines, and a minimal SQL layer *(Go)*
+- ⬜ **Redis Clone** - caching, data structures, and network protocols *(Go)*
+- ⬜ **HTTP Server** - networking and the HTTP protocol, from raw sockets up *(Node.js)*
+- ⬜ **React from Scratch** - virtual DOM, fiber architecture, and reconciliation *(JavaScript)*
 
 *(Links added as each project is finished — check back soon!)*
 
