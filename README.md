@@ -29,7 +29,7 @@ Recreating core technologies from scratch to understand how they work internally
 - ⬜ **HTTP Server** - networking and the HTTP protocol, from raw sockets up *(Node.js)*
 - ⬜ **React from Scratch** - virtual DOM, fiber architecture, and reconciliation *(JavaScript)*
 
-*(Links added as each project is finished — check back soon!)*
+*(Links added as each project is finished - check back soon!)*
 
 ---
 
@@ -52,7 +52,7 @@ A Python AI agent using the Gemini API to iteratively solve coding tasks via CLI
 
 ## 📊 GitHub Stats
 
-![](https://github-readme-stats.vercel.app/api?username=danielleroslund&show_icons=true&theme=default)
+![](https://github-readme-stats.vercel.app/api?username=danielleroslund&show_icons=true&theme=default&cache_seconds=0)
 
 ---
 
