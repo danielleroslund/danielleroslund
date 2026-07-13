@@ -1,10 +1,8 @@
 # Hi, I'm Danielle 👋
 
-🇸🇪 Sweden • Java • Spring Boot • React • Python
+🇸🇪 Malmö, Sweden • Open to remote
 
-Backend • Frontend • Full-Stack Development • AI Tooling
-
-🔍 Currently looking for: Backend, Frontend, or Full-Stack roles
+🔍 Backend, Frontend & Full-Stack roles
 
 💼 [LinkedIn](https://www.linkedin.com/in/danielle-roslund/) • 📫 [Email](mailto:roslunddanielle@gmail.com)
 
