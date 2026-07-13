@@ -50,12 +50,6 @@ A Python AI agent using the Gemini API to iteratively solve coding tasks via CLI
 
 ---
 
-## 📊 GitHub Stats
-
-[![Anurag's GitHub stats](https://github-stats-extended.vercel.app/api?username=danielleroslund)](https://github.com/stats-organization/github-stats-extended)
-
----
-
 ## 🤝 Let's Connect
 
 💼 [LinkedIn](https://www.linkedin.com/in/danielle-roslund/) • 📫 [Email](mailto:roslunddanielle@gmail.com)
