@@ -1,84 +1,61 @@
-<h1 align="center">Hi, I'm Danielle 👋</h1>
+# Hi, I'm Danielle 👋
 
-<p align="center">
-🇸🇪 Software Developer based in Sweden
-</p>
+🇸🇪 Sweden • Java • Spring Boot • React • Python
 
-<p align="center">
-Java • Spring Boot • React • Python
-</p>
+Backend • Frontend • Full-Stack Development • AI Tooling
 
-<p align="center">
-Building software from full-stack applications to the systems that power them.
-</p>
+🔍 Currently looking for: Backend, Frontend, or Full-Stack roles
+
+💼 [LinkedIn](https://www.linkedin.com/in/danielle-roslund/) • 📫 [Email](mailto:roslunddanielle@gmail.com)
 
 ---
 
 ## 👋 About Me
 
-I'm a software developer who enjoys building things and understanding how they work behind the scenes.
+I'm a software developer with experience across both frontend and backend, currently deepening my understanding of backend systems, networking, and data structures by rebuilding well-known technologies from scratch.
 
-During my six-month internship, I worked on migrating a large AngularJS application to React while building a Python AI agent to automate parts of the migration process. That experience sparked my interest in combining software engineering with practical AI tooling.
+During my latest internship, I worked hands-on with **React**, migrating a large-scale web application from AngularJS to React, and built a **Python AI agent** to automate parts of the migration process — which sparked my interest in combining software engineering with practical AI tooling.
 
-Lately I've been spending more time exploring backend development, networking and system design by building software from scratch. I enjoy understanding what's happening beneath the frameworks I use every day.
+Right now I'm building a small suite of systems projects (database, cache, web server, React) to strengthen my understanding of how the tools I use every day actually work under the hood.
 
 ---
 
-## 🚀 Currently Building
+## 🌱 Currently Building
 
-I'm currently working through projects that help me understand how computers and software work under the hood.
+Recreating core technologies from scratch to understand how they work internally.
 
-| Project | Status |
-|---------|:------:|
-| 🌐 HTTP Server | 🟡 In Progress |
-| ⚡ Redis Clone | ⚪ Planned |
-| 🌳 Git Clone | ⚪ Planned |
-| 🔎 Search Engine | ⚪ Planned |
+- ⬜ **Database** — B+trees, storage engines, and a minimal SQL layer *(Go)*
+- ⬜ **Redis Clone** — caching, data structures, and network protocols *(Go)*
+- ⬜ **HTTP Server** — networking and the HTTP protocol, from raw sockets up *(Node.js)*
+- ⬜ **React from Scratch** — virtual DOM, fiber architecture, and reconciliation *(JavaScript)*
+
+*(Links added as each project is finished — check back soon!)*
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Backend
-
-Java • Spring Boot • Python • MySQL
-
-### Frontend
-
-React • JavaScript • HTML • CSS
-
-### Tools
-
-Git • Docker • Linux • Maven • IntelliJ IDEA • VS Code • Postman
+![](https://skillicons.dev/icons?i=react,js,html,css,java,spring,python,mysql,docker,git,linux,maven,idea,vscode,postman)
 
 ---
 
-## 📌 Featured Work
+## 📌 Featured Projects
 
-### 🤖 AngularJS → React Migration *(Internship)*
+### AngularJS → React Migration *(internship experience)*
+Worked on migrating a large-scale web application from AngularJS to React, and built a Python AI agent to automate parts of the migration process. *Code not publicly available due to company confidentiality.*
 
-Migrated parts of a large-scale AngularJS application to React and built a Python AI agent that automated parts of the migration workflow.
-
-*The source code belongs to the company and isn't publicly available.*
+### AI Agent
+A Python AI agent using the Gemini API to iteratively solve coding tasks via CLI.
+→ [Repo](https://github.com/danielleroslund/ai-agent)
 
 ---
 
-## 🌱 Exploring
+## 📊 GitHub Stats
 
-Currently learning more about:
-
-- Networking
-- HTTP
-- System Design
-- Distributed Systems
-- Operating Systems
+![](https://github-readme-stats.vercel.app/api?username=danielleroslund&show_icons=true&theme=default)
 
 ---
 
 ## 🤝 Let's Connect
 
-💼 **LinkedIn**  
-https://www.linkedin.com/in/danielle-roslund/
-
-📫 **Email**  
-roslunddanielle@gmail.com
+💼 [LinkedIn](https://www.linkedin.com/in/danielle-roslund/) • 📫 [Email](mailto:roslunddanielle@gmail.com)
