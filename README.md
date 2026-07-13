@@ -52,7 +52,7 @@ A Python AI agent using the Gemini API to iteratively solve coding tasks via CLI
 
 ## 📊 Top Languages
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=danielleroslund&layout=compact&theme=default)
+[![Anurag's GitHub stats](https://github-stats-extended.vercel.app/api//top-langs/?username=danielleroslund&layout=compact&theme=default)](https://github.com/stats-organization/github-stats-extended)
 
 ---
 
