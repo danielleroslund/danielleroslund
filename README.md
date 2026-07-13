@@ -10,7 +10,7 @@
 
 ## 👋 About Me
 
-I'm a software developer with experience across both frontend and backend, currently deepening my understanding of backend systems, networking, and data structures by rebuilding well-known technologies from scratch.
+I'm a junior software developer with experience across both frontend and backend, currently deepening my understanding of backend systems, networking, and data structures by rebuilding well-known technologies from scratch.
 
 During my latest internship, I worked hands-on with **React**, migrating a large-scale web application from AngularJS to React, and built a **Python AI agent** to automate parts of the migration process, which sparked my interest in combining software engineering with practical AI tooling.
 
