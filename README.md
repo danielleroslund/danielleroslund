@@ -8,7 +8,7 @@
 
 ---
 
-## 👨‍💻 About
+## 🌼 About
 
 I'm a Software Developer with experience building modern web applications using Java, Spring Boot and React. I enjoy working across both backend and frontend, with a growing interest in software architecture, networking and backend systems.
 
