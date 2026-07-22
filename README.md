@@ -1,6 +1,6 @@
-# 💻 Danielle Roslund
+# Hi, I'm Danielle 👋
 
-### Full-Stack Developer | Java • Spring Boot • React • Python
+### Full Stack Developer | Java • Spring Boot • React • Python
 
 ---
 
