@@ -1,4 +1,3 @@
-```markdown
 # 👋 Hi, I'm Danielle Roslund
 
 ### Full Stack Developer | Java • Spring Boot • React • Python
@@ -31,18 +30,23 @@ I'm always eager to learn, improve my skills and take on new challenges. I'm cur
 ## 🚀 I'm Exploring
 
 ### 💬 Full Stack Forum
+
 Building a modern social platform with React and Spring Boot featuring authentication, media uploads, comments and user profiles.
 
 ### 🗄️ Database Engine
+
 Building a database from scratch to better understand storage engines, indexing and query execution.
 
 ### 🌐 Web Server
+
 Implementing an HTTP server from scratch to gain a deeper understanding of networking and the HTTP protocol.
 
 ### 🐳 Docker
+
 Containerizing applications to create consistent development and deployment environments.
 
 ### ⚙️ CI/CD
+
 Building automated testing and deployment pipelines with GitHub Actions.
 
 ---
@@ -53,7 +57,7 @@ Building automated testing and deployment pipelines with GitHub Actions.
 
 A Python AI agent built to assist developers in migrating a large AngularJS application to React by automating repetitive migration tasks.
 
-🔗 https://github.com/danielleroslund/ai-agent
+🔗 Repository: https://github.com/danielleroslund/ai-agent
 
 > More projects are currently in development and will be added here soon.
 
@@ -100,4 +104,3 @@ A Python AI agent built to assist developers in migrating a large AngularJS appl
 ---
 
 ⭐ **Thanks for visiting my profile. Feel free to connect or check out my repositories!**
-```
