@@ -6,7 +6,7 @@
 
 ## 🌸 About
 
-I am a Junior Full Stack Developer with experience building modern, scalable web applications using Java, Spring Boot and React. I enjoy working across both backend and frontend, with a growing interest in software architecture and backend systems.
+I am a Full Stack Developer with experience building modern, scalable web applications using Java, Spring Boot and React. I enjoy working across both backend and frontend, with a growing interest in software architecture and backend systems.
 
 On the backend, I primarily work with Java and Spring Boot to build robust RESTful APIs, backed by a Java certification covering object-oriented design, web service architecture and secure application development. On the frontend, I've worked professionally with React, including migrating a large-scale application from AngularJS to React.
 
