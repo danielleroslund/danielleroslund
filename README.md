@@ -27,79 +27,72 @@ I'm always eager to learn, improve my skills and take on new challenges. I'm cur
 
 ---
 
-## 🚀 I'm Exploring
+## 🚀 Currently Exploring
 
-### 💬 Full Stack Forum
+- 💬 **Full Stack Forum**
+  - React + Spring Boot
+  - Authentication, media uploads, comments and user profiles
 
-Building a modern social platform with React and Spring Boot featuring authentication, media uploads, comments and user profiles.
+- 🗄️ **Database Engine**
+  - Building a database from scratch
+  - Exploring storage engines, indexing and query execution
 
-### 🗄️ Database Engine
+- 🌐 **Web Server**
+  - Building an HTTP server from scratch
+  - Learning sockets, networking and the HTTP protocol
 
-Building a database from scratch to better understand storage engines, indexing and query execution.
+- 🐳 **Docker**
+  - Containerizing applications
+  - Building consistent development environments
 
-### 🌐 Web Server
-
-Implementing an HTTP server from scratch to gain a deeper understanding of networking and the HTTP protocol.
-
-### 🐳 Docker
-
-Containerizing applications to create consistent development and deployment environments.
-
-### ⚙️ CI/CD
-
-Building automated testing and deployment pipelines with GitHub Actions.
+- ⚙️ **CI/CD**
+  - Automating testing and deployment
+  - Learning GitHub Actions
 
 ---
 
 ## ⭐ Featured Projects
 
-### 🤖 AI Migration Agent
+<p align="center">
 
-A Python AI agent built to assist developers in migrating a large AngularJS application to React by automating repetitive migration tasks.
+<a href="https://github.com/danielleroslund/ai-agent">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=danielleroslund&repo=ai-agent&theme=github_dark&hide_border=true" />
+</a>
 
-🔗 Repository: https://github.com/danielleroslund/ai-agent
+<a href="https://github.com/danielleroslund/static_site_generator">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=danielleroslund&repo=static_site_generator&theme=github_dark&hide_border=true" />
+</a>
+
+<a href="https://github.com/danielleroslund/bookbot">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=danielleroslund&repo=bookbot&theme=github_dark&hide_border=true" />
+</a>
+
+</p>
 
 > More projects are currently in development and will be added here soon.
 
 ---
 
-## 🧰 Core Technologies
+## 🛠️ Tech Stack
 
-[![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
-[![Spring Boot](https://img.shields.io/badge/springboot-%236DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
-[![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://react.dev/)
-[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
-[![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
-[![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
+### Core Technologies
 
----
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=FFD43B)](https://www.python.org/)
 
-## 🛠️ Languages, Frameworks & Tools
+### Additional Technologies
 
-### Languages
-
-[![Languages](https://skillicons.dev/icons?i=java,python,js,kotlin,cs)](https://skillicons.dev)
-
-### Backend
-
-[![Backend](https://skillicons.dev/icons?i=spring,mysql)](https://skillicons.dev)
-
-### Frontend
-
-[![Frontend](https://skillicons.dev/icons?i=react,html,css)](https://skillicons.dev)
-
-### Tools
-
-[![Tools](https://skillicons.dev/icons?i=git,docker,maven,idea,vscode,postman,linux)](https://skillicons.dev)
+[![Skills](https://skillicons.dev/icons?i=java,spring,react,python,mysql,js,html,css,kotlin,cs,docker,git,maven,linux,idea,vscode,postman)](https://skillicons.dev)
 
 ---
 
 ## 📊 GitHub Stats
 
-[![Danielle's GitHub Stats](https://github-readme-stats.vercel.app/api?username=danielleroslund&show_icons=true&theme=transparent&hide_border=true)](https://github.com/danielleroslund)
+![](https://github-readme-stats.vercel.app/api?username=danielleroslund&show_icons=true&theme=github_dark&hide_border=true)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=danielleroslund&layout=compact&theme=transparent&hide_border=true)](https://github.com/danielleroslund)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=danielleroslund&layout=compact&theme=github_dark&hide_border=true)
 
 ---
 
