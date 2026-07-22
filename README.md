@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Danielle Roslund
+# 👋 Hi, I'm Danielle
 
 ### Software Developer | Java • Spring Boot • React • Python
 
