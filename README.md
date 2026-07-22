@@ -59,19 +59,6 @@ Java • Spring Boot • REST API • React • AngularJS • JavaScript • HTM
 
 ### Skills
 
-[![Java](https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg "Java")](https://www.java.com/)
-[![JavaScript](https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg "JavaScript")](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Python](https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg "Python")](https://www.python.org/)
-[![Kotlin](https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/kotlin-colored.svg "Kotlin")](https://kotlinlang.org/)
-[![HTML5](https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg "HTML5")](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
-[![CSS3](https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg "CSS3")](https://www.w3.org/TR/CSS/#css)
-[![React](https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg "React")](https://reactjs.org/)
-[![MySQL](https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg "MySQL")](https://www.mysql.com/)
-[![Docker](https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/docker-colored.svg "Docker")](https://www.docker.com/)
-[![Git](https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg "Git")](https://git-scm.com/)
-[![VS Code](https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/visualstudiocode-colored.svg "VS Code")](https://code.visualstudio.com/)
-[![IntelliJ IDEA](https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/intellij-colored.svg "IntelliJ IDEA")](https://www.jetbrains.com/idea/)
-
 [![](https://skillicons.dev/icons?i=java,spring,react,js,html,css,mysql,python,kotlin,cs,docker,git,vscode,idea)](https://skillicons.dev)
 
 ---
