@@ -4,22 +4,22 @@
 
 ---
 
-## 🧑‍💻 About Me
+## 🌸 About
 
-I am a junior Full Stack Developer with hands-on experience building modern, scalable web applications using the Java and JavaScript ecosystems.
+I am a Junior Full Stack Developer with experience building modern, scalable web applications using Java, Spring Boot and React. I enjoy working across both backend and frontend, with a growing interest in software architecture and backend systems.
 
-On the backend side, I have hands-on experience using Java and Spring Boot to deliver robust and efficient RESTful API endpoints, backed by a Java certification covering object-oriented design, web service architecture, and secure application development. On the frontend side, I've worked with React professionally, including migrating a large-scale application from AngularJS to React.
+On the backend, I primarily work with Java and Spring Boot to build robust RESTful APIs, backed by a Java certification covering object-oriented design, web service architecture and secure application development. On the frontend, I've worked professionally with React, including migrating a large-scale application from AngularJS to React.
 
-Before development, I spent over 10 years in customer service and sales, which taught me how to understand users, communicate clearly, and solve problems under pressure. These are skills I now bring directly into how I build software.
+Before becoming a developer, I spent over 10 years in customer service and sales. That experience taught me how to understand users, communicate clearly and solve problems under pressure. Those are skills that continue to shape how I approach software development today.
 
-I've developed projects involving authentication, CRUD operations, and full-stack applications with React and Spring Boot. To go deeper than frameworks, I'm also building databases, web servers, and other systems from scratch to strengthen my understanding of what happens under the hood.
+I've built projects involving authentication, CRUD operations and full-stack applications with React and Spring Boot. To deepen my understanding beyond frameworks, I'm currently building databases, web servers and other systems from scratch to explore how modern software works beneath the surface.
 
-I am always eager to learn and improve my skills. I am seeking backend, frontend, or full-stack opportunities where I can keep growing as a developer.
+I am always eager to learn and improve my skills. I am seeking backend, frontend, or full-stack opportunities where I can continue growing as a developer.
 
-**Tech Stack:**
-Java • Spring Boot • REST API • React • AngularJS • JavaScript • HTML • CSS • MySQL • Python • Kotlin • C# • Git • Docker • Maven
+**Tech Stack**  
+Java • Spring Boot • REST API • React • AngularJS • JavaScript • HTML • CSS • MySQL • Python • AI Agents • Kotlin • C# • Git • Docker • Maven
 
-> 🚀 "Building software. Exploring systems. Understanding how things work beneath the surface."
+> 🚀 *Building software. Exploring systems. Understanding how things work beneath the surface.*
 
 ---
 
