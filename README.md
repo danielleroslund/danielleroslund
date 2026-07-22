@@ -10,7 +10,7 @@ I am a junior Full Stack Developer with hands-on experience building modern, sca
 
 On the backend side, I have hands-on experience using Java and Spring Boot to deliver robust and efficient RESTful API endpoints, backed by a Java certification covering object-oriented design, web service architecture, and secure application development. On the frontend side, I am proficient in React, and I've also worked professionally with AngularJS, migrating a large-scale application from AngularJS to React.
 
-Before development, I spent over 10 years in customer service and sales, which taught me how to understand users, communicate clearly, and solve problems under pressure — skills I now bring directly into how I build software.
+Before development, I spent over 10 years in customer service and sales, which taught me how to understand users, communicate clearly, and solve problems under pressure. These are skills I now bring directly into how I build software.
 
 I've developed projects involving authentication, CRUD operations, and full-stack applications with React and Spring Boot. To go deeper than frameworks, I'm also building databases, web servers, and other systems from scratch to strengthen my understanding of what happens under the hood.
 
@@ -19,7 +19,7 @@ I am always eager to learn and improve my skills. I am seeking backend, frontend
 **Tech Stack:**
 Java • Spring Boot • REST API • React • AngularJS • JavaScript • HTML • CSS • MySQL • Python • Kotlin • C# • Git • Docker • Maven
 
-> 🚀 "I don't just write code — I try to understand exactly what it's doing, and why."
+> 🚀 "I don't just write code. I try to understand exactly what it's doing, and why."
 
 ---
 
