@@ -36,17 +36,10 @@ I'm always eager to learn, improve my skills and take on new challenges. I'm cur
 
 ## 🚀 Currently Exploring
 
-- 💬 **Full Stack Forum**
-  - React, Spring Boot, authentication, media uploads and user profiles
-
-- 🗄️ **Database Engine**
-  - Storage engines, indexing and query execution
-
-- 🌐 **Web Server**
-  - HTTP, sockets and networking
-
-- 🐳 **Docker & CI/CD**
-  - Containerized development, GitHub Actions and deployment workflows
+- 💬 **Full Stack Forum** – React, Spring Boot, authentication, media uploads and user profiles
+- 🗄️ **Database Engine** – Storage engines, indexing and query execution
+- 🌐 **Web Server** – HTTP, sockets and networking
+- 🐳 **Docker & CI/CD** – Containerized development, GitHub Actions and deployment workflows
 
 ---
 
