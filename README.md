@@ -6,17 +6,17 @@
 
 ## 🧑‍💻 About Me
 
-I am a junior Full Stack Developer with hands-on experience building modern, scalable web applications using the Java and JavaScript ecosystems.
+I am a Junior Full Stack Developer with hands-on experience building modern web applications using Java, Spring Boot and React.
 
-On the backend side, I have hands-on experience using Java and Spring Boot to deliver robust and efficient RESTful API endpoints, backed by a Java certification covering object-oriented design, web service architecture, and secure application development. On the frontend side, I am proficient in React, and I've also worked professionally with AngularJS, migrating a large-scale application from AngularJS to React.
+During my latest internship, I worked on migrating a large enterprise application from AngularJS to React while also building a Python AI agent to automate parts of the migration process.
 
-Before development, I spent over 10 years in customer service and sales, which taught me how to understand users, communicate clearly, and solve problems under pressure. These are skills I now bring directly into how I build software.
+Before becoming a developer, I spent over 10 years in customer service and sales, giving me a strong user-focused mindset, clear communication skills and a practical approach to problem solving.
 
-I've developed projects involving authentication, CRUD operations, and full-stack applications with React and Spring Boot. To go deeper than frameworks, I'm also building databases, web servers, and other systems from scratch to strengthen my understanding of what happens under the hood.
+To deepen my understanding beyond frameworks, I'm currently building databases, web servers and other systems from scratch to better understand what happens under the hood.
 
 I am always eager to learn and improve my skills. I am seeking backend, frontend, or full-stack opportunities where I can keep growing as a developer.
 
-**Tech Stack:**
+**Tech Stack**  
 Java • Spring Boot • REST API • React • AngularJS • JavaScript • HTML • CSS • MySQL • Python • Kotlin • C# • Git • Docker • Maven
 
 > 🚀 "Building software. Exploring systems. Understanding how things work beneath the surface."
