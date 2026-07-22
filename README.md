@@ -8,7 +8,7 @@
 
 ---
 
-## 🌸 About
+## 👨‍💻 About
 
 I'm a Full Stack Developer with experience building modern, scalable web applications using Java, Spring Boot and React. I enjoy working across both backend and frontend, with a growing interest in software architecture, networking and backend systems.
 
@@ -16,7 +16,7 @@ On the backend, I primarily work with Java and Spring Boot to build robust RESTf
 
 Before becoming a developer, I spent over 10 years in customer service and sales. That experience taught me how to understand users, communicate clearly and solve problems under pressure. Those are skills that continue to shape how I approach software development today.
 
-I've built projects involving authentication, CRUD operations and full-stack applications with React and Spring Boot. To deepen my understanding beyond frameworks, I'm currently building databases, web servers and other systems from scratch to explore how modern software works beneath the surface.
+My projects range from full-stack web applications built with React and Spring Boot to systems projects implemented from scratch in Python, including a static site generator and tools that explore how modern software works beneath the surface.
 
 I'm always eager to learn, improve my skills and take on new challenges. I'm currently seeking backend, frontend or full-stack opportunities where I can continue growing as a developer.
 
@@ -28,8 +28,8 @@ I'm always eager to learn, improve my skills and take on new challenges. I'm cur
 
 | Project | Description |
 |---------|-------------|
-| 🤖 **[AI Agent](https://github.com/danielleroslund/ai-agent)** | A lightweight Python AI assistant exploring LLM integration and prompt engineering. |
-| 🌐 **[Static Site Generator](https://github.com/danielleroslund/static_site_generator)** | A static site generator built from scratch to better understand how modern static websites are generated. |
+| 🌐 **[Static Site Generator](https://github.com/danielleroslund/static_site_generator)** | A static site generator built from scratch in Python that converts Markdown into a complete static website. Includes a live demo, comprehensive documentation and a custom Markdown parsing pipeline. |
+| 🤖 **[AI Agent](https://github.com/danielleroslund/ai-agent)** | A lightweight Python AI assistant exploring LLM integration, prompt engineering and developer tooling. |
 | 📚 **[BookBot](https://github.com/danielleroslund/bookbot)** | A Python application that analyzes books and extracts useful statistics from text. |
 
 ---
@@ -46,7 +46,7 @@ I'm always eager to learn, improve my skills and take on new challenges. I'm cur
   - HTTP, sockets and networking
 
 - 🐳 **Docker & CI/CD**
-  - Containerized development and GitHub Actions
+  - Containerized development, GitHub Actions and deployment workflows
 
 ---
 
@@ -59,7 +59,7 @@ I'm always eager to learn, improve my skills and take on new challenges. I'm cur
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=FFD43B)](https://www.python.org/)
 
-### Also Working With
+### Tools & Technologies
 
 [![Skills](https://skillicons.dev/icons?i=java,spring,react,python,mysql,js,html,css,kotlin,cs,docker,git,maven,linux,idea,vscode,postman)](https://skillicons.dev)
 
@@ -72,4 +72,4 @@ I'm always eager to learn, improve my skills and take on new challenges. I'm cur
 
 ---
 
-⭐ Thanks for visiting my profile. Feel free to connect or check out my repositories!
+⭐ Thanks for stopping by! Feel free to explore my repositories or connect with me on LinkedIn.
