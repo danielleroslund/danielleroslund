@@ -19,7 +19,7 @@ I am always eager to learn and improve my skills. I am seeking backend, frontend
 **Tech Stack:**
 Java • Spring Boot • REST API • React • AngularJS • JavaScript • HTML • CSS • MySQL • Python • Kotlin • C# • Git • Docker • Maven
 
-> 🚀 "I don't just write code. I try to understand exactly what it's doing, and why."
+> 🚀 "Building software. Exploring systems. Understanding how things work beneath the surface."
 
 ---
 
