@@ -2,6 +2,10 @@
 
 ### Full Stack Developer | Java • Spring Boot • React • Python
 
+📍 Sweden
+
+💼 Open to Frontend, Backend and Full Stack opportunities.
+
 ---
 
 ## 🌸 About
@@ -20,80 +24,52 @@ I'm always eager to learn, improve my skills and take on new challenges. I'm cur
 
 ---
 
-## 🌐 Connect with Me
+## ⭐ Featured Projects
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/danielle-roslund/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)](mailto:roslunddanielle@gmail.com)
+| Project | Description |
+|---------|-------------|
+| 🤖 **[AI Agent](https://github.com/danielleroslund/ai-agent)** | A lightweight Python AI assistant exploring LLM integration and prompt engineering. |
+| 🌐 **[Static Site Generator](https://github.com/danielleroslund/static_site_generator)** | A static site generator built from scratch to better understand how modern static websites are generated. |
+| 📚 **[BookBot](https://github.com/danielleroslund/bookbot)** | A Python application that analyzes books and extracts useful statistics from text. |
 
 ---
 
 ## 🚀 Currently Exploring
 
 - 💬 **Full Stack Forum**
-  - React + Spring Boot
-  - Authentication, media uploads, comments and user profiles
+  - React, Spring Boot, authentication, media uploads and user profiles
 
 - 🗄️ **Database Engine**
-  - Building a database from scratch
-  - Exploring storage engines, indexing and query execution
+  - Storage engines, indexing and query execution
 
 - 🌐 **Web Server**
-  - Building an HTTP server from scratch
-  - Learning sockets, networking and the HTTP protocol
+  - HTTP, sockets and networking
 
-- 🐳 **Docker**
-  - Containerizing applications
-  - Building consistent development environments
-
-- ⚙️ **CI/CD**
-  - Automating testing and deployment
-  - Learning GitHub Actions
-
----
-
-## ⭐ Featured Projects
-
-<p align="center">
-
-<a href="https://github.com/danielleroslund/ai-agent">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=danielleroslund&repo=ai-agent&theme=github_dark&hide_border=true" />
-</a>
-
-<a href="https://github.com/danielleroslund/static_site_generator">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=danielleroslund&repo=static_site_generator&theme=github_dark&hide_border=true" />
-</a>
-
-<a href="https://github.com/danielleroslund/bookbot">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=danielleroslund&repo=bookbot&theme=github_dark&hide_border=true" />
-</a>
-
-</p>
-
-> More projects are currently in development and will be added here soon.
+- 🐳 **Docker & CI/CD**
+  - Containerized development and GitHub Actions
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Core Technologies
+### Core Stack
 
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=FFD43B)](https://www.python.org/)
 
-### Additional Technologies
+### Also Working With
 
 [![Skills](https://skillicons.dev/icons?i=java,spring,react,python,mysql,js,html,css,kotlin,cs,docker,git,maven,linux,idea,vscode,postman)](https://skillicons.dev)
 
 ---
 
-## 📊 GitHub Stats
+## 🌐 Connect
 
-![](https://github-readme-stats.vercel.app/api?username=danielleroslund&show_icons=true&theme=github_dark&hide_border=true)
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=danielleroslund&layout=compact&theme=github_dark&hide_border=true)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/danielle-roslund/)
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:roslunddanielle@gmail.com)
 
 ---
 
-⭐ **Thanks for visiting my profile. Feel free to connect or check out my repositories!**
+⭐ Thanks for visiting my profile. Feel free to connect or check out my repositories!
