@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currently on repeat</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="music-widget">
+        <h1 id="music-heading">// currently on repeat</h1>
+
+        <div class="music-carousel" id="music-carousel" role="group" aria-roledescription="carousel" aria-labelledby="music-heading" aria-describedby="music-help">
+            <p class="visually-hidden" id="music-help">All tracks are available as links, including tracks outside the visible carousel. Rotation pauses when keyboard focus enters. Use the pause button or Space on an album to pause or enable rotation.</p>
+
+            <button class="nav-pause" type="button" aria-label="Pause automatic rotation" aria-pressed="false">
+                <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+                    <path class="icon-pause" d="M8 5v14M16 5v14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <path class="icon-play" d="M8 5l11 7-11 7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                </svg>
+            </button>
+
+            <button class="nav-arrow nav-prev" type="button" aria-label="Previous album">
+                <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false">
+                    <path d="M15 4 7 12l8 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+
+            <div class="music-wheel" id="music-wheel" role="group" aria-label="Album tracks"></div>
+
+            <button class="nav-arrow nav-next" type="button" aria-label="Next album">
+                <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false">
+                    <path d="m9 4 8 8-8 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+
+        </div>
+
+    </main>
+</body>
+</html>
