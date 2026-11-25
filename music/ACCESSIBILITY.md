@@ -19,9 +19,21 @@ live announcements.
   [WCAG 2.2.2](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html).
 - Track labels fade during motion and may temporarily fall below the text
   contrast threshold. Settled labels are fully opaque.
+- In headful Chrome on Windows, at a simulated 200px viewport with 200%
+  default text size, the centered long label can overlap the navigation
+  buttons when a vertical scrollbar reduces the available content width.
 - Screen-reader behavior, physical touch devices and actual browser zoom
   still require manual verification. Automated checks cover narrow CSS
   viewports and enlarged default text, but are not a full WCAG audit.
+
+## Remaining manual verification
+
+- Check actual browser zoom at 200% and 400%.
+- Check navigation and links on physical touch devices.
+- Check rendering and interaction in Safari/WebKit.
+- Check keyboard and screen-reader behavior with NVDA and VoiceOver.
+- Investigate the intermittent headful hover/focus test if it recurs, and
+  complete final performance and regression verification.
 
 ## Regression tests
 

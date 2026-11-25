@@ -59,6 +59,10 @@ const reducedMotion = window.matchMedia(
 const count = tracks.length;
 const half = count / 2;
 
+function wrap(value) {
+    return ((value % count) + count) % count;
+}
+
 // Continuous wheel position, measured in albums
 let scroll = 2;
 let velocity = 1 / msPerTrack; // albums per ms, eased towards a target
@@ -207,7 +211,7 @@ function setLabelOpacity(album, opacity) {
 
 function renderLabel(delta = 0) {
     const nearest = Math.round(scroll);
-    const next = raisedAlbum ?? albums[((nearest % count) + count) % count];
+    const next = raisedAlbum ?? albums[wrap(nearest)];
     const pixelsPerAlbum = wheelWidth * stepRatio;
     const settled = reducedMotion.matches || (
         navTarget === null && !edgeScrolling
@@ -260,8 +264,7 @@ function render(delta = 0) {
 
     albums.forEach((album, index) => {
         // Signed distance from center, wrapped to [-half, half)
-        const position =
-            (((index - scroll + half) % count) + count) % count - half;
+        const position = wrap(index - scroll + half) - half;
 
         const distance = Math.abs(position);
 

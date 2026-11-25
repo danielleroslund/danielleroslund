@@ -1,9 +1,11 @@
 ﻿
 :root {
-    --lavender: #cba6f7;
+    --lavender-rgb: 203, 166, 247;
+    --background-rgb: 13, 17, 23;
+    --lavender: rgb(var(--lavender-rgb));
     --text: #cdd6f4;
     --subtext: #a6adc8;
-    --background: #0d1117;
+    --background: rgb(var(--background-rgb));
 }
 
 * {
@@ -87,11 +89,6 @@ h1 {
     right: 0;
 }
 
-.nav-arrow:focus-visible {
-    outline: 1px solid var(--lavender);
-    outline-offset: -4px;
-}
-
 @media (hover: hover) {
     .nav-arrow:hover {
         color: var(--lavender);
@@ -100,6 +97,8 @@ h1 {
 }
 
 .nav-arrow:focus-visible {
+    outline: 1px solid var(--lavender);
+    outline-offset: -4px;
     color: var(--lavender);
     opacity: 1;
 }
@@ -194,12 +193,12 @@ h1 {
             bottom / 100% var(--lift-gutter) no-repeat,
         linear-gradient(
             to right,
-            rgba(13, 17, 23, 1) 0%,
-            rgba(13, 17, 23, 0.55) 18%,
-            rgba(13, 17, 23, 0) 38%,
-            rgba(13, 17, 23, 0) 62%,
-            rgba(13, 17, 23, 0.55) 82%,
-            rgba(13, 17, 23, 1) 100%
+            rgba(var(--background-rgb), 1) 0%,
+            rgba(var(--background-rgb), 0.55) 18%,
+            rgba(var(--background-rgb), 0) 38%,
+            rgba(var(--background-rgb), 0) 62%,
+            rgba(var(--background-rgb), 0.55) 82%,
+            rgba(var(--background-rgb), 1) 100%
         ) top / 100% calc(100% - var(--lift-gutter)) no-repeat;
 }
 
@@ -209,6 +208,7 @@ h1 {
     /* Explicit radius everywhere: `border-radius: inherit` would make the
        browser re-resolve the whole subtree on every transform change */
     --album-radius: 8%;
+    --album-lift: 12px;
 
     position: absolute;
     top: 0;
@@ -236,7 +236,7 @@ h1 {
 .album.is-raised::before {
     content: "";
     position: absolute;
-    inset: calc(-12px - 6%) -6% -8px;
+    inset: calc(-1 * var(--album-lift) - 6%) -6% -8px;
 }
 
 .album .album-content {
@@ -249,7 +249,7 @@ h1 {
 }
 
 .album.is-raised .album-content {
-    transform: translateY(-12px) scale(1.12);
+    transform: translateY(calc(-1 * var(--album-lift))) scale(1.12);
 }
 
 /* Hover layer: styled from CSS, separate from the script-driven album */
@@ -324,14 +324,14 @@ h1 {
     box-shadow: 0 0 0 4px var(--background), 0 18px 32px rgba(0, 0, 0, 0.6);
 }
 
-/* Lavender glow, faded in with opacity so nothing is repainted or resized */
+/* Fade the lavender glow without changing the album's size. */
 
 .album .cover::before {
     content: "";
     position: absolute;
     inset: 0;
     border-radius: var(--album-radius);
-    box-shadow: 0 0 16px rgba(203, 166, 247, 0.18);
+    box-shadow: 0 0 16px rgba(var(--lavender-rgb), 0.18);
     opacity: 0;
     pointer-events: none;
     transition: opacity 200ms ease;
@@ -365,8 +365,8 @@ h1 {
     }
 }
 
-/* Labels share the album's translation and scale. Their width is limited
-   to one album step so neighboring labels cannot overlap. */
+/* Labels share the album's translation and scale. The desktop width is
+   stepRatio / coverRatio (0.2 / 0.264), keeping labels within one step. */
 .album .track-label {
     position: absolute;
     top: calc(100% + 4px);

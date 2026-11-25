@@ -29,6 +29,42 @@ async function openPage(options = {}) {
     return { context, page };
 }
 
+test("positive modulo handles negative, fractional, and boundary values", async () => {
+    const { context, page } = await openPage({ reducedMotion: "reduce" });
+    try {
+        const results = await page.evaluate(() => {
+            const values = [-14, -7.25, -7, -0.25, 0, 0.25, 6.75, 7, 7.25, 14];
+            return values.map(value => eval("wrap(value)"));
+        });
+        assert.deepEqual(results, [0, 6.75, 0, 6.75, 0, 0.25, 6.75, 0, 0.25, 0]);
+    } finally {
+        await context.close();
+    }
+});
+
+test("wheel layout and selected label repeat across wrap boundaries", async () => {
+    const { context, page } = await openPage({ reducedMotion: "reduce" });
+    try {
+        const states = await page.evaluate(() => {
+            return [-7, 0, 7, -0.25, 6.75, 0.25, 7.25, -1].map(position => {
+                eval("scroll=position;render(200)");
+                return [...document.querySelectorAll(".album")].map(album => ({
+                    transform: album.style.transform,
+                    opacity: album.style.opacity,
+                    labelOpacity: getComputedStyle(album.querySelector(".track-label")).opacity
+                }));
+            });
+        });
+        assert.deepEqual(states[0], states[1]);
+        assert.deepEqual(states[1], states[2]);
+        assert.deepEqual(states[3], states[4]);
+        assert.deepEqual(states[5], states[6]);
+        assert.equal(states[7][6].labelOpacity, "1");
+    } finally {
+        await context.close();
+    }
+});
+
 test("revealed side label remains active under the pointer", async () => {
     const { context, page } = await openPage();
     try {
