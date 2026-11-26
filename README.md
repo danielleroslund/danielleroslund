@@ -66,3 +66,11 @@ I'm always eager to learn, improve my skills and take on new challenges. I'm cur
 ---
 
 ⭐ Thanks for stopping by! Feel free to explore my repositories or connect with me on LinkedIn.
+
+---
+
+<div align="center">
+  <img src="./assets/music-wheel.svg" alt="Currently on repeat: seven rotating album covers" />
+</div>
+
+---
