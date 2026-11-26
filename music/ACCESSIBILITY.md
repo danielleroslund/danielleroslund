@@ -24,7 +24,7 @@ live announcements.
 - Screen-reader behavior, physical touch devices and actual browser zoom
   still require manual verification. Automated checks cover narrow CSS
   viewports and enlarged default text, but are not a full WCAG audit.
-- For the planned animated SVG README preview, GitHub image probes continued
+- For the animated SVG README preview, GitHub image probes continued
   animating when reduced motion was emulated on the host page. The CSS
   fallback worked locally when the SVG was opened as a document. Actual OS
   and browser behavior needs verification; an embedded SVG cannot be assumed
