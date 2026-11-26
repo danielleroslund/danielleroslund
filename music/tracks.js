@@ -41,6 +41,18 @@ const tracks = [
         title: "Rifts to Abhorrence",
         cover: "../assets/albums/analepsy.jpg",
         spotify: "https://open.spotify.com/track/4qKcD20tOsKLlR8eXKRl5d"
+    },
+    {
+        artist: "Signs of the Swarm",
+        title: "Cowards Deathbed",
+        cover: "../assets/albums/signs-of-the-swarm.jpg",
+        spotify: "https://open.spotify.com/track/5Cfpkql6atqov7YHVG7Py7"
+    },
+    {
+        artist: "Mental Cruelty",
+        title: "Obsessis a Daemonio",
+        cover: "../assets/albums/mental-cruelty.jpg",
+        spotify: "https://open.spotify.com/track/0twqLUF3xORPsT5127ENx5"
     }
 ];
 

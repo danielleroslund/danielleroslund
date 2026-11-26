@@ -52,7 +52,8 @@ test("SVG animation matches the carousel positions, label handoff, and loop", as
     const page = await browser.newPage({ reducedMotion: "no-preference" });
     try {
         await page.goto(pathToFileURL(svgPath).href);
-        const times = [...new Set([0, 1625, 45499, 45500,
+        const duration = tracks.length * 6500;
+        const times = [...new Set([0, 1625, duration - 1, duration,
             ...Array.from({ length: tracks.length }, (_, index) =>
                 [index * 6500, index * 6500 + 3249, index * 6500 + 3250, index * 6500 + 3251]).flat()
         ])].sort((a, b) => a - b);
@@ -96,7 +97,7 @@ test("SVG animation matches the carousel positions, label handoff, and loop", as
                 const position = album.slot + 0.5 - ((time + 3250) % 6500) / 6500;
                 const distance = Math.abs(position);
                 const expectedX = 420 + position * 142.4;
-                const expectedTrack = ((2 + album.slot + Math.floor((time + 3250) / 6500)) % 7 + 7) % 7;
+                const expectedTrack = ((2 + album.slot + Math.floor((time + 3250) / 6500)) % tracks.length + tracks.length) % tracks.length;
                 assert.equal(album.track, expectedTrack, `track in slot ${album.slot} at ${time}ms`);
                 assert(Math.abs(album.x - expectedX) < 0.02, JSON.stringify({ time, album, position }));
                 assert(Math.abs(album.scale - (0.9 + 0.1 * Math.exp(-0.7 * distance * distance))) < 0.001);
