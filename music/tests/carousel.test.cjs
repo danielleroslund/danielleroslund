@@ -3,6 +3,7 @@ const assert = require("node:assert/strict");
 const path = require("node:path");
 const { pathToFileURL } = require("node:url");
 const { chromium, firefox, webkit } = require("playwright");
+const tracks = require("../tracks.js");
 
 const url = pathToFileURL(path.resolve(__dirname, "..", "index.html")).href;
 let browser;
@@ -38,6 +39,26 @@ async function openPage(options = {}) {
     await page.mouse.move(1, 1);
     return { context, page };
 }
+
+test("shared track data renders from local files and matches Node consumption", async () => {
+    const { context, page } = await openPage({ reducedMotion: "reduce" });
+    try {
+        const albums = await page.locator(".album").evaluateAll(nodes => nodes.map(album => {
+            const image = album.querySelector("img");
+            return {
+                artist: album.querySelector(".track-artist").textContent,
+                title: album.querySelector(".track-title").textContent,
+                cover: image.getAttribute("src"),
+                spotify: album.href,
+                imageLoaded: image.complete && image.naturalWidth > 0
+            };
+        }));
+        assert.equal(tracks.length, 7);
+        assert.deepEqual(albums, tracks.map(track => ({ ...track, imageLoaded: true })));
+    } finally {
+        await context.close();
+    }
+});
 
 test("positive modulo handles negative, fractional, and boundary values", async () => {
     const { context, page } = await openPage({ reducedMotion: "reduce" });
