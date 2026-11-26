@@ -7,7 +7,7 @@ provided the pointer is not hovering and reduced motion is not enabled.
 Reduced-motion preferences stop automatic rotation. Escape dismisses a
 revealed track label until the pointer or focus leaves that album.
 
-All seven track links remain available to screen readers, including links
+All nine track links remain available to screen readers, including links
 outside the visible part of the carousel. Automatic rotation does not make
 live announcements.
 
@@ -17,8 +17,11 @@ live announcements.
   touch-only users. Hover pauses only while the pointer remains over the
   carousel. This can prevent conformance with
   [WCAG 2.2.2](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html).
-- Track labels fade during motion and may temporarily fall below the text
-  contrast threshold. Settled labels are fully opaque.
+- Interactive track labels fade during motion and may temporarily fall below
+  the text contrast threshold. Settled interactive labels are fully opaque.
+- The transparent SVG uses fixed title and artist colors for both GitHub
+  themes. Text contrast is not guaranteed to meet WCAG AA, even at full
+  opacity, and the animated label fades further reduce contrast.
 - Viewports below 185 CSS pixels and default text sizes above 200% have not
   been comprehensively verified.
 - Screen-reader behavior, physical touch devices and actual browser zoom
@@ -40,7 +43,9 @@ live announcements.
 
 ## Regression tests
 
-The tests use Node.js 20 or newer and a test-only Playwright dependency:
+The tests use Node.js 20 or newer and a test-only Playwright dependency.
+The nine-track version passed all 25 tests in Firefox on 26 November 2026.
+Chrome and WebKit have not been retested for this version:
 
 ```powershell
 Set-Location music\tests
