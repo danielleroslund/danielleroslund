@@ -1,3 +1,4 @@
+
 const fs = require("node:fs");
 const path = require("node:path");
 const tracks = require("./tracks.js");
@@ -17,7 +18,17 @@ const duration = tracks.length * secondsPerTrack;
 const initialTrack = 2;
 const half = tracks.length / 2;
 const samplesPerTrack = 40;
-const output = path.join(__dirname, "..", "assets", "music-wheel.svg");
+
+const themes = {
+    dark: {
+        accent: "#cba6f7",
+        artist: "#a6adc8"
+    },
+    light: {
+        accent: "#8839ef",
+        artist: "#5c5f77"
+    }
+};
 
 if (tracks.length !== 7) {
     throw new Error("The SVG layering requires exactly seven tracks.");
@@ -90,7 +101,7 @@ function imageDefinition(track, index) {
     return `    <image id="cover-${index}" x="${number(-coverSize / 2)}" y="${number(-coverSize / 2)}" width="${number(coverSize)}" height="${number(coverSize)}" href="data:image/jpeg;base64,${bytes.toString("base64")}"/>`;
 }
 
-function trackLabel(track, index) {
+function trackLabel(track, index, theme) {
     const lines = wrapTitle(track.title);
     const labelTop = coverSize / 2 + 4;
     const title = lines.map((line, lineIndex) =>
@@ -99,14 +110,14 @@ function trackLabel(track, index) {
     const artistY = labelTop + lines.length * 17.25 + 12;
 
     return `            <g transform="translate(${number(index * labelGap)} 0)" text-anchor="middle" font-family="monospace">
-        <text fill="#cba6f7" font-size="15" font-weight="700">
+        <text fill="${theme.accent}" font-size="15" font-weight="700">
 ${title}
         </text>
-        <text x="0" y="${number(artistY)}" fill="#a6adc8" font-size="13">${escapeXml(track.artist)}</text>
+        <text x="0" y="${number(artistY)}" fill="${theme.artist}" font-size="13">${escapeXml(track.artist)}</text>
       </g>`;
 }
 
-function slot(position) {
+function slot(position, theme) {
     const initial = state(position);
     const firstTrack = wrap(initialTrack + position);
     const images = tracks.map((_, index) =>
@@ -116,7 +127,7 @@ function slot(position) {
       <g class="label-fade" opacity="1">
         <g clip-path="url(#label-clip)">
           <g class="label-strip" transform="translate(0 0)">
-${tracks.map((_, index) => trackLabel(tracks[wrap(firstTrack + index)], index)).join("\n")}
+${tracks.map((_, index) => trackLabel(tracks[wrap(firstTrack + index)], index, theme)).join("\n")}
           </g>
         </g>
       </g>` : "";
@@ -139,23 +150,32 @@ const keyframes = layers.flatMap(layer => [
     sampledKeyframes(`shade-${layer + 3}`, layer, position =>
         `opacity: ${number(state(position).shade)}`)
 ]).join("\n");
+
 const description = tracks.map(track => `${track.title} by ${track.artist}`).join("; ");
 
-const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="760" height="428" viewBox="0 0 760 428" role="img" aria-labelledby="title description">
+// Generate both themes from the same layout and animation.
+const createSvg = theme => `<svg xmlns="http://www.w3.org/2000/svg" width="760" height="428" viewBox="0 0 760 428" role="img" aria-labelledby="title description">
   <title id="title">Currently on repeat</title>
   <desc id="description">A rotating selection of seven album covers: ${escapeXml(description)}.</desc>
   <defs>
 ${tracks.map(imageDefinition).join("\n")}
     <clipPath id="cover-clip"><rect x="${number(-coverSize / 2)}" y="${number(-coverSize / 2)}" width="${number(coverSize)}" height="${number(coverSize)}" rx="${number(coverSize * 0.08)}"/></clipPath>
     <clipPath id="wheel-clip"><rect x="24" y="0" width="${wheelWidth}" height="428"/></clipPath>
-    <linearGradient id="edge-fade">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="18%" stop-color="#0d1117" stop-opacity=".55"/>
-      <stop offset="38%" stop-color="#0d1117" stop-opacity="0"/>
-      <stop offset="62%" stop-color="#0d1117" stop-opacity="0"/>
-      <stop offset="82%" stop-color="#0d1117" stop-opacity=".55"/>
-      <stop offset="100%" stop-color="#0d1117"/>
+
+    <!-- Fade the artwork to transparency instead of a fixed background color. -->
+    <linearGradient id="edge-fade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="white" stop-opacity="0"/>
+      <stop offset="18%" stop-color="white" stop-opacity=".45"/>
+      <stop offset="38%" stop-color="white" stop-opacity="1"/>
+      <stop offset="62%" stop-color="white" stop-opacity="1"/>
+      <stop offset="82%" stop-color="white" stop-opacity=".45"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
     </linearGradient>
+
+    <mask id="edge-mask" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="24" y="0" width="${wheelWidth}" height="428">
+      <rect x="24" y="0" width="${wheelWidth}" height="428" fill="url(#edge-fade)"/>
+    </mask>
+
     <clipPath id="label-clip"><rect x="${number(-labelGap / 2)}" y="${number(coverSize / 2 + 4)}" width="${number(labelGap)}" height="64"/></clipPath>
     <style>
       .slot { animation: var(--motion) ${secondsPerTrack}s linear infinite; animation-delay: -${secondsPerTrack / 2}s; }
@@ -171,18 +191,28 @@ ${keyframes}
       @media (prefers-reduced-motion: reduce) { .slot, .shade, .strip, .label-strip, .label-fade { animation: none; } }
     </style>
   </defs>
-  <rect width="760" height="428" fill="#0d1117"/>
-  <text x="380" y="50" text-anchor="middle" font-family="monospace" font-size="16" fill="#cba6f7">// currently on repeat</text>
-  <g clip-path="url(#wheel-clip)">
-${layers.map(slot).join("\n")}
-    <rect x="24" y="${number(wheelTop)}" width="${wheelWidth}" height="${number(wheelHeight + 64)}" fill="url(#edge-fade)"/>
+
+  <text x="380" y="50" text-anchor="middle" font-family="monospace" font-size="16" fill="${theme.accent}">// currently on repeat</text>
+
+  <g clip-path="url(#wheel-clip)" mask="url(#edge-mask)">
+${layers.map(layer => slot(layer, theme)).join("\n")}
   </g>
 </svg>
 `;
 
 if (require.main === module) {
-    fs.writeFileSync(output, svg);
-    console.log(`Generated ${output} (${Buffer.byteLength(svg)} bytes)`);
+    for (const [name, theme] of Object.entries(themes)) {
+        const svg = createSvg(theme);
+        const output = path.join(
+            __dirname,
+            "..",
+            "assets",
+            `music-wheel-${name}.svg`
+        );
+
+        fs.writeFileSync(output, svg);
+        console.log(`Generated ${output} (${Buffer.byteLength(svg)} bytes)`);
+    }
 } else {
-    module.exports = svg;
+    module.exports = createSvg(themes.dark);
 }
