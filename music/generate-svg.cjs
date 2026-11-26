@@ -4,11 +4,11 @@ const path = require("node:path");
 const tracks = require("./tracks.js");
 
 const width = 840;
-const height = 428;
+const height = 338;
 const wheelWidth = 840;
 const wheelLeft = (width - wheelWidth) / 2;
 const layoutWidth = 712;
-const wheelTop = 77.72;
+const wheelTop = 47.72;
 const wheelHeight = layoutWidth * 280 / 760;
 const centerX = width / 2;
 const centerY = wheelTop + wheelHeight / 2;
@@ -24,7 +24,7 @@ const samplesPerTrack = 40;
 
 const theme = {
     accent: "#9966DD",
-    artist: "#767676"
+    artist: "#858585"
 };
 
 if (tracks.length !== 7) {
