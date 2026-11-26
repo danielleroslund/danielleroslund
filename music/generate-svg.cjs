@@ -208,64 +208,34 @@ ${tracks.map(imageDefinition).join("\n")}
       <rect x="${wheelLeft}" y="0" width="${wheelWidth}" height="${height}"/>
     </clipPath>
 
-    <!-- Horizontal fade to transparency. -->
+    <!-- Extended smooth fade towards the outer edges. -->
     <linearGradient id="edge-fade" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="white" stop-opacity="0"/>
-      <stop offset="6%" stop-color="white" stop-opacity=".2"/>
-      <stop offset="14%" stop-color="white" stop-opacity=".75"/>
-      <stop offset="23%" stop-color="white" stop-opacity="1"/>
-      <stop offset="77%" stop-color="white" stop-opacity="1"/>
-      <stop offset="86%" stop-color="white" stop-opacity=".75"/>
-      <stop offset="94%" stop-color="white" stop-opacity=".2"/>
+      <stop offset="5%" stop-color="white" stop-opacity=".01"/>
+      <stop offset="10%" stop-color="white" stop-opacity=".04"/>
+      <stop offset="15%" stop-color="white" stop-opacity=".12"/>
+      <stop offset="20%" stop-color="white" stop-opacity=".30"/>
+      <stop offset="25%" stop-color="white" stop-opacity=".58"/>
+      <stop offset="30%" stop-color="white" stop-opacity=".85"/>
+      <stop offset="35%" stop-color="white" stop-opacity="1"/>
+      <stop offset="65%" stop-color="white" stop-opacity="1"/>
+      <stop offset="70%" stop-color="white" stop-opacity=".85"/>
+      <stop offset="75%" stop-color="white" stop-opacity=".58"/>
+      <stop offset="80%" stop-color="white" stop-opacity=".30"/>
+      <stop offset="85%" stop-color="white" stop-opacity=".12"/>
+      <stop offset="90%" stop-color="white" stop-opacity=".04"/>
+      <stop offset="95%" stop-color="white" stop-opacity=".01"/>
       <stop offset="100%" stop-color="white" stop-opacity="0"/>
     </linearGradient>
 
-    <!-- Elliptical fade softens the outer album corners. -->
-    <radialGradient id="corner-fade" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="white" stop-opacity="1"/>
-      <stop offset="55%" stop-color="white" stop-opacity="1"/>
-      <stop offset="70%" stop-color="white" stop-opacity=".95"/>
-      <stop offset="85%" stop-color="white" stop-opacity=".5"/>
-      <stop offset="95%" stop-color="white" stop-opacity=".1"/>
-      <stop offset="100%" stop-color="white" stop-opacity="0"/>
-    </radialGradient>
-
-    <!-- Keep the center artwork and track labels visible. -->
-    <mask id="corner-mask"
-          maskUnits="userSpaceOnUse"
-          maskContentUnits="userSpaceOnUse"
-          x="${wheelLeft}" y="0"
-          width="${wheelWidth}" height="${height}">
-
-      <rect
-          x="${wheelLeft}"
-          y="${number(centerY - coverSize)}"
-          width="${wheelWidth}"
-          height="${number(coverSize * 2)}"
-          fill="url(#corner-fade)"/>
-
-      <rect
-          x="${number(centerX - labelGap / 2)}"
-          y="${number(centerY + coverSize / 2)}"
-          width="${labelGap}"
-          height="${number(height - centerY - coverSize / 2)}"
-          fill="white"/>
-    </mask>
-
-    <!-- Combine horizontal and elliptical fading. -->
     <mask id="edge-mask"
           maskUnits="userSpaceOnUse"
           maskContentUnits="userSpaceOnUse"
           x="${wheelLeft}" y="0"
           width="${wheelWidth}" height="${height}">
-
-      <rect
-          x="${wheelLeft}"
-          y="0"
-          width="${wheelWidth}"
-          height="${height}"
-          fill="url(#edge-fade)"
-          mask="url(#corner-mask)"/>
+      <rect x="${wheelLeft}" y="0"
+            width="${wheelWidth}" height="${height}"
+            fill="url(#edge-fade)"/>
     </mask>
 
     <clipPath id="label-clip">
