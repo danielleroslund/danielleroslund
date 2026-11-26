@@ -95,7 +95,7 @@ test("SVG animation matches the carousel positions, label handoff, and loop", as
             for (const album of albums) {
                 const position = album.slot + 0.5 - ((time + 3250) % 6500) / 6500;
                 const distance = Math.abs(position);
-                const expectedX = 380 + position * 142.4;
+                const expectedX = 420 + position * 142.4;
                 const expectedTrack = ((2 + album.slot + Math.floor((time + 3250) / 6500)) % 7 + 7) % 7;
                 assert.equal(album.track, expectedTrack, `track in slot ${album.slot} at ${time}ms`);
                 assert(Math.abs(album.x - expectedX) < 0.02, JSON.stringify({ time, album, position }));
@@ -131,7 +131,7 @@ test("SVG renders and animates as a local image without network requests", async
         }, pathToFileURL(svgPath).href);
         const image = page.locator("#svg-preview");
         await image.evaluate(element => element.decode());
-        assert.deepEqual(await image.evaluate(element => [element.naturalWidth, element.naturalHeight]), [760, 428]);
+        assert.deepEqual(await image.evaluate(element => [element.naturalWidth, element.naturalHeight]), [840, 338]);
         const first = await image.screenshot();
         await page.waitForTimeout(1000);
         const second = await image.screenshot();
@@ -168,7 +168,7 @@ test("SVG has an accessible static initial frame with and without animation CSS"
         const reduced = await staticFrame();
         assert.equal(reduced.animations, 0);
         assert.equal(reduced.visible.length, 7);
-        assert.deepEqual(reduced.visible.filter(album => album.label === 1), [{ slot: 0, track: 2, label: 1, x: 380 }]);
+        assert.deepEqual(reduced.visible.filter(album => album.label === 1), [{ slot: 0, track: 2, label: 1, x: 420 }]);
         await page.locator("style").evaluate(style => style.remove());
         assert.deepEqual(await staticFrame(), reduced);
     } finally {
