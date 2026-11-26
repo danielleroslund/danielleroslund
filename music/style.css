@@ -423,6 +423,11 @@ h1 {
 
 @media (max-width: 240px) {
     .music-carousel {
-        --label-space: 15rem;
+        --label-space: 16.5rem;
+    }
+
+    /* Keep enlarged labels short enough to clear the navigation. */
+    .album .track-label {
+        width: min(max(130%, 1.75rem), calc(19vw + 36px));
     }
 }

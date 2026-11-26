@@ -2,16 +2,26 @@ const { test, before, after } = require("node:test");
 const assert = require("node:assert/strict");
 const path = require("node:path");
 const { pathToFileURL } = require("node:url");
-const { chromium, firefox } = require("playwright");
+const { chromium, firefox, webkit } = require("playwright");
 
 const url = pathToFileURL(path.resolve(__dirname, "..", "index.html")).href;
 let browser;
 
 before(async () => {
     const options = { headless: !process.env.HEADFUL };
-    browser = process.env.BROWSER === "chrome"
-        ? await chromium.launch({ ...options, channel: "chrome" })
-        : await firefox.launch(options);
+    switch (process.env.BROWSER || "firefox") {
+        case "firefox":
+            browser = await firefox.launch(options);
+            break;
+        case "chrome":
+            browser = await chromium.launch({ ...options, channel: "chrome" });
+            break;
+        case "webkit":
+            browser = await webkit.launch(options);
+            break;
+        default:
+            throw new Error(`Unsupported BROWSER: ${process.env.BROWSER}`);
+    }
 });
 
 after(async () => {
@@ -242,7 +252,11 @@ test("lifted long labels do not clip or cover navigation at narrow widths", asyn
             await page.addStyleTag({ content: `html { font-size: ${fontSize}; }` });
             for (const distance of [-2, 0, 2]) {
                 await page.evaluate(distance => eval(`scroll=${2 - distance};isPaused=true;velocity=0;acceleration=0;measure();render(200);focusedAlbum=albums[2];updateRaised()`), distance);
-                await page.waitForTimeout(300);
+                await page.waitForFunction(() => {
+                    const content = document.querySelector('[data-index="2"] .album-content');
+                    const transform = new DOMMatrixReadOnly(getComputedStyle(content).transform);
+                    return Math.abs(transform.a - 1.12) < 0.0001 && Math.abs(transform.f + 12) < 0.0001;
+                });
                 const result = await page.evaluate(() => {
                     const label = document.querySelector('[data-index="2"] .track-label').getBoundingClientRect();
                     const wheel = document.querySelector(".music-wheel").getBoundingClientRect();
@@ -254,6 +268,44 @@ test("lifted long labels do not clip or cover navigation at narrow widths", asyn
                 });
                 assert(result.left >= 0 && result.right <= width && result.bottom <= result.wheelBottom && !result.overlapsButton, JSON.stringify({ width, fontSize, distance, result }));
             }
+        } finally {
+            await context.close();
+        }
+    }
+});
+
+test("raised long label avoids navigation when scrollbar narrows the viewport", async () => {
+    for (const [width, fontSize] of [[185, "125%"], [185, "150%"], [185, "175%"], [185, "200%"], [200, "200%"]]) {
+        const { context, page } = await openPage({ viewport: { width, height: 700 } });
+        try {
+            await page.addStyleTag({ content: `html { font-size: ${fontSize}; overflow-y: scroll; }` });
+            await page.evaluate(() => {
+                const scrollbarWidth = innerWidth - document.documentElement.clientWidth;
+                document.body.style.paddingRight = `${Math.max(0, 15 - scrollbarWidth)}px`;
+                eval("scroll=2;isPaused=true;velocity=0;acceleration=0;measure();render(200)");
+            });
+            await page.keyboard.press("Tab");
+            await page.locator('[data-index="2"]').focus();
+            await page.waitForFunction(() => {
+                const album = document.querySelector('[data-index="2"]');
+                const transform = new DOMMatrixReadOnly(getComputedStyle(album.querySelector(".album-content")).transform);
+                return album.matches(":focus-visible") && album.classList.contains("is-raised")
+                    && Math.abs(transform.a - 1.12) < 0.0001 && Math.abs(transform.f + 12) < 0.0001;
+            });
+            const result = await page.evaluate(() => {
+                const label = document.querySelector('[data-index="2"] .track-label').getBoundingClientRect();
+                const wheel = document.querySelector(".music-wheel").getBoundingClientRect();
+                const buttons = [...document.querySelectorAll(".nav-arrow")].map(e => e.getBoundingClientRect());
+                const body = document.body.getBoundingClientRect();
+                const contentRight = body.right - parseFloat(getComputedStyle(document.body).paddingRight);
+                return {
+                    left: label.left, right: label.right, bottom: label.bottom, wheelBottom: wheel.bottom, contentRight,
+                    overlapsButton: buttons.some(b => label.left < b.right && label.right > b.left && label.top < b.bottom && label.bottom > b.top)
+                };
+            });
+            const details = JSON.stringify({ width, fontSize, result });
+            assert(result.contentRight <= width - 15, details);
+            assert(result.left >= 0 && result.right <= result.contentRight && result.bottom <= result.wheelBottom && !result.overlapsButton, details);
         } finally {
             await context.close();
         }
