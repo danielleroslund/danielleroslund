@@ -71,5 +71,6 @@ I'm always eager to learn, improve my skills and take on new challenges. I'm cur
 
 <div align="center">
   <img src="./assets/music-wheel.svg"
+       width="100%"
        alt="Currently on repeat: seven rotating album covers" />
 </div>
