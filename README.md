@@ -70,12 +70,6 @@ I'm always eager to learn, improve my skills and take on new challenges. I'm cur
 ---
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)"
-            srcset="./assets/music-wheel-dark.svg">
-    <source media="(prefers-color-scheme: light)"
-            srcset="./assets/music-wheel-light.svg">
-    <img src="./assets/music-wheel-light.svg"
-         alt="Currently on repeat: seven rotating album covers">
-  </picture>
+  <img src="./assets/music-wheel.svg"
+       alt="Currently on repeat: seven rotating album covers" />
 </div>

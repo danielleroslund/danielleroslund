@@ -19,15 +19,9 @@ const initialTrack = 2;
 const half = tracks.length / 2;
 const samplesPerTrack = 40;
 
-const themes = {
-    dark: {
-        accent: "#cba6f7",
-        artist: "#a6adc8"
-    },
-    light: {
-        accent: "#8839ef",
-        artist: "#5c5f77"
-    }
+const theme = {
+    accent: "#9966DD",
+    artist: "#767676"
 };
 
 if (tracks.length !== 7) {
@@ -164,12 +158,14 @@ ${tracks.map(imageDefinition).join("\n")}
 
     <!-- Fade the artwork to transparency instead of a fixed background color. -->
     <linearGradient id="edge-fade" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="white" stop-opacity="0"/>
-      <stop offset="18%" stop-color="white" stop-opacity=".45"/>
-      <stop offset="38%" stop-color="white" stop-opacity="1"/>
-      <stop offset="62%" stop-color="white" stop-opacity="1"/>
-      <stop offset="82%" stop-color="white" stop-opacity=".45"/>
-      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+        <stop offset="0%" stop-color="white" stop-opacity="0"/>
+        <stop offset="6%" stop-color="white" stop-opacity=".2"/>
+        <stop offset="14%" stop-color="white" stop-opacity=".75"/>
+        <stop offset="23%" stop-color="white" stop-opacity="1"/>
+        <stop offset="77%" stop-color="white" stop-opacity="1"/>
+        <stop offset="86%" stop-color="white" stop-opacity=".75"/>
+        <stop offset="94%" stop-color="white" stop-opacity=".2"/>
+        <stop offset="100%" stop-color="white" stop-opacity="0"/>
     </linearGradient>
 
     <mask id="edge-mask" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="24" y="0" width="${wheelWidth}" height="428">
@@ -201,18 +197,16 @@ ${layers.map(layer => slot(layer, theme)).join("\n")}
 `;
 
 if (require.main === module) {
-    for (const [name, theme] of Object.entries(themes)) {
-        const svg = createSvg(theme);
-        const output = path.join(
-            __dirname,
-            "..",
-            "assets",
-            `music-wheel-${name}.svg`
-        );
+    const svg = createSvg(theme);
+    const output = path.join(
+        __dirname,
+        "..",
+        "assets",
+        "music-wheel.svg"
+    );
 
-        fs.writeFileSync(output, svg);
-        console.log(`Generated ${output} (${Buffer.byteLength(svg)} bytes)`);
-    }
+    fs.writeFileSync(output, svg);
+    console.log(`Generated ${output} (${Buffer.byteLength(svg)} bytes)`);
 } else {
-    module.exports = createSvg(themes.dark);
+    module.exports = createSvg(theme);
 }
